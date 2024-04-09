@@ -13,8 +13,7 @@
     border-radius: 5%;
     height: 500px;
     width: 700px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
 }
 
 .left-box {
@@ -23,6 +22,8 @@
     border-radius: 5%;
     padding: 5px;
     text-align: center;
+    flex-grow: 1;
+    max-width: 50%;
 }
 
 .left-box h3 {
@@ -65,4 +66,8 @@
     margin: 0;
     font-size: small;
 
+}
+
+.right-box {
+    flex-grow: 1;
 }
