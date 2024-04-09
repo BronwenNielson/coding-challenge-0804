@@ -17,8 +17,8 @@
 }
 
 .left-box {
-    background: rgb(55,44,217);
-    background: linear-gradient(0deg, rgba(55,44,217,1) 0%, rgba(58,72,226,1) 35%, rgba(43,44,211,1) 100%);
+    background: rgb(48,43,232);
+    background: linear-gradient(0deg, rgba(48,43,232,1) 0%, rgba(75,54,243,1) 35%, rgba(101,65,253,1) 100%);
     border-radius: 20px;
     padding: 5px;
     text-align: center;
@@ -30,7 +30,7 @@
 }
 
 .left-box h3 {
-    color: rgb(235, 208, 238);
+    color: #c9c2ff;
     font-weight: bold;
     margin-top: 30px;
 }
@@ -42,13 +42,13 @@
 
 .result-text {
     max-width: 60%;
-    color: rgb(235, 208, 238);
+    color: #c9c2ff;
     margin-left: 70px;
 }
 
 .result {
-    background: rgb(40,29,189);
-    background: linear-gradient(180deg, rgba(40,29,189,1) 0%, rgba(58,72,226,1) 35%, rgba(43,44,211,1) 100%);
+    background: rgb(76,34,201);
+    background: linear-gradient(180deg, rgba(76,34,201,1) 0%, rgba(69,46,224,1) 35%, rgba(71,52,238,1) 100%);
     border-radius: 100px;
     width: 180px;
     height: 180px;
@@ -65,7 +65,7 @@
 }
 
 .result p {
-    color: rgb(235, 208, 238);
+    color: #c9c2ff;
     margin: 0;
     font-size: small;
 
@@ -105,23 +105,23 @@
 }
 
 .reaction {
-    background-color: rgb(252 155 155 / 0.31);
-    color: rgb(236, 76, 76);
+    background-color: #fff6f5;
+    color: #da6c6d;
 }
 
 .memory {
-    background-color: rgb(250 252 155 / 0.31);
-    color: rgb(235, 196, 3);
+    background-color: #fffbf2;
+    color: #f3bf55;
 }
 
 .verbal {
-    background-color: rgb(155 252 163 / 0.31);
-    color: green;
+    background-color: #f2fbfa;
+    color: #33b394;
 }
 
 .visual {
-    background-color: rgb(155 157 252 / 0.31);
-    color: rgb(2, 2, 195);
+    background-color: #f3f3fd;
+    color: #4a49ae;
 }
 
 .result-numbers {
@@ -145,7 +145,7 @@
 .button {
     width: 70%;
     height: 70%;
-    background-color: rgb(38, 38, 97);
+    background-color: #303b59;
     color: white;
     border: none;
     border-radius: 50px;
@@ -153,5 +153,5 @@
 }
 
 .button:hover {
-    background-color: rgb(55,44,217);
+    background-color: rgb(76,34,201);
 }
