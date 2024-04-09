@@ -24,6 +24,9 @@
     text-align: center;
     flex-grow: 1;
     max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .left-box h3 {
@@ -70,4 +73,40 @@
 
 .right-box {
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-box h3 {
+    max-height: 30%;
+    padding-left: 12%;
+    padding-top: 10%;
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+.result-boxes {
+    max-width: 70%;
+    height: 60%;
+    flex-grow: 2;
+    margin-left: 12%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.result-boxes div {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+
+.right-box div {
+    border: 1px solid black;
+
+}
+
+.button-space {
+    flex-grow: 3;
 }
