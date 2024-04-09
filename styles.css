@@ -139,7 +139,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    border: 1px solid black;
+    margin-bottom: 20px;
 }
 
 .button {
@@ -149,4 +149,9 @@
     color: white;
     border: none;
     border-radius: 50px;
+    transition: background-color 0.8s;
+}
+
+.button:hover {
+    background-color: rgb(55,44,217);
 }
